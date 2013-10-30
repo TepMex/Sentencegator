@@ -195,6 +195,8 @@ func loadWaniKaniData(apik string) []string {
 		result[k] = word.Character
 	}
 
+	fmt.Printf("Hello, %s of sect %s! ^_^\n", inp.UserInfo.Username, inp.UserInfo.Title)
+
 	return result
 
 }
