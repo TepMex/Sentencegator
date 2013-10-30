@@ -1,12 +1,14 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
+	"regexp"
 	"strings"
 )
 
@@ -16,8 +18,13 @@ const WK_API_URL = "http://www.wanikani.com/api/user/"
 const WK_API_REQUEST_VOCAB = "/vocabulary"
 const WK_API_REQUEST_USER_INFO = "/user-information"
 
+const REGEXP_CONTAIN_KANJI = "[\u4E00-\u9FAF].*"
+
+const SENTENCES_DB_FILENAME = "sentences.db"
+
 var WaniKaniApiKey string
 var Vocabular []string
+var Sentences []string
 
 func main() {
 	for _, arg := range os.Args {
@@ -42,6 +49,29 @@ func main() {
 	} else {
 		return
 	}
+
+	Sentences = loadSentencesDB(SENTENCES_DB_FILENAME)
+
+	var GoodSentences []string
+
+	for k, sentence := range Sentences {
+		var noRepeatFlag = false
+
+		for j, word := range Vocabular {
+
+			if noRepeatFlag {
+				break
+			}
+
+			if strings.Contains(sentence, word) {
+				GoodSentences = append(GoodSentences, sentence)
+				fmt.Printf("%i-%i", k, j)
+				noRepeatFlag = true
+			}
+		}
+	}
+
+	fmt.Println(containKanji("ムーリエルは２０になりました。	Muiriel is 20 now."))
 
 }
 
@@ -137,4 +167,51 @@ func loadWaniKaniData(apik string) []string {
 
 	return result
 
+}
+
+func readLines(path string) ([]string, error) {
+	file, err := os.Open(path)
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	var lines []string
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		lines = append(lines, scanner.Text())
+	}
+	return lines, scanner.Err()
+}
+
+func writeLines(lines []string, path string) error {
+	file, err := os.Create(path)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	w := bufio.NewWriter(file)
+	for _, line := range lines {
+		fmt.Fprintln(w, line)
+	}
+	return w.Flush()
+}
+
+func loadSentencesDB(dbfile string) []string {
+
+	var lines []string
+
+	lines, open_err := readLines(dbfile)
+	if open_err != nil {
+		log.Fatal(open_err)
+	}
+
+	return lines
+
+}
+
+func containKanji(arg string) (bool, error) {
+	matched, merr := regexp.MatchString(REGEXP_CONTAIN_KANJI, arg)
+	return matched, merr
 }
