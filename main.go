@@ -17,6 +17,7 @@ const WK_API_REQUEST_VOCAB = "/vocabulary"
 const WK_API_REQUEST_USER_INFO = "/user-information"
 
 var WaniKaniApiKey string
+var Vocabular []string
 
 func main() {
 	for _, arg := range os.Args {
@@ -36,17 +37,17 @@ func main() {
 	}
 
 	if WaniKaniApiKey != INCORRECT_API_KEY {
-		fmt.Print("API key is correct.\n")
-		loadWaniKaniData(WaniKaniApiKey)
+		fmt.Print("API key is valid.\n")
+		Vocabular = loadWaniKaniData(WaniKaniApiKey)
 	} else {
 		return
 	}
 
 }
 
-func loadWaniKaniData(apik string) {
+func loadWaniKaniData(apik string) []string {
 
-	fmt.Printf("Load your vocabular.\n")
+	fmt.Printf("Load your vocabular data.\n")
 	res, err := http.Get(WK_API_URL + apik + WK_API_REQUEST_VOCAB)
 	if err != nil {
 		log.Fatal(err)
@@ -91,7 +92,7 @@ func loadWaniKaniData(apik string) {
 	}
 
 	type Requested_info struct {
-		Items []interface{} `json:"requested_information"`
+		Items []Vocab_item `json:"general"`
 	}
 
 	type User_info struct {
@@ -108,16 +109,15 @@ func loadWaniKaniData(apik string) {
 	}
 
 	type WKResponse struct {
-		UserInfo      User_info     `json:"user_information"`
-		RequestedInfo []interface{} `json:"requested_information"`
+		UserInfo      User_info      `json:"user_information"`
+		RequestedInfo Requested_info `json:"requested_information"`
 	}
-	//var r Requested_info
 
 	inp := new(WKResponse)
 
 	jsonResp, resp_err := ioutil.ReadAll(res.Body)
 	encode_err := json.Unmarshal(jsonResp, &inp)
-	//ee := json.Unmarshal([]byte(inp.RequestedInfo.([]byte)), &r)
+
 	if resp_err != nil {
 		log.Fatal(resp_err)
 		fmt.Printf("resperr")
@@ -126,12 +126,15 @@ func loadWaniKaniData(apik string) {
 		log.Fatal(encode_err)
 		fmt.Printf("encerr")
 	}
-	//jsonDecoder := json.NewDecoder(res.Body)
-	res.Body.Close()
-	//nigga := inp.RequestedInfo.([]Vocab_item)
 
-	fmt.Println(inp.RequestedInfo)
+	res.Body.Close()
+
+	result := make([]string, len(inp.RequestedInfo.Items))
+
+	for k, word := range inp.RequestedInfo.Items {
+		result[k] = word.Character
+	}
+
+	return result
 
 }
-
-//func parseJsonResponse
