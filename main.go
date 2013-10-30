@@ -25,6 +25,7 @@ const SENTENCES_DB_FILENAME = "sentences.db"
 var WaniKaniApiKey string
 var Vocabular []string
 var Sentences []string
+var Result []string
 
 func main() {
 	for _, arg := range os.Args {
@@ -46,32 +47,61 @@ func main() {
 	if WaniKaniApiKey != INCORRECT_API_KEY {
 		fmt.Print("API key is valid.\n")
 		Vocabular = loadWaniKaniData(WaniKaniApiKey)
+		fmt.Printf("Your vocabular loaded.\n")
 	} else {
 		return
 	}
 
+	fmt.Printf("Loading sentences database.\n")
+
 	Sentences = loadSentencesDB(SENTENCES_DB_FILENAME)
 
-	var GoodSentences []string
+	fmt.Printf("Sentences loaded.\n")
 
-	for k, sentence := range Sentences {
-		var noRepeatFlag = false
+	Result = processingSentences(Sentences, Vocabular)
 
-		for j, word := range Vocabular {
+	fmt.Printf("Done. See your sentence list in file result.txt.\n")
 
-			if noRepeatFlag {
-				break
+	writeLines(Result, "result.txt")
+
+	//fmt.Println(containKanji("ムーリエルは２０になりました。	Muiriel is 20 now."))
+
+}
+
+func processingSentences(sent []string, vocab []string) []string {
+
+	var reslt []string
+
+	fmt.Printf("Data processing(it may take few minutes)")
+
+	for k, sentence := range sent {
+
+		var tempSentence = sentence
+
+		var containVocab = false
+
+		for _, word := range vocab {
+
+			if strings.Contains(tempSentence, word) {
+				containVocab = true
+				tempSentence = strings.Replace(tempSentence, word, "", -1)
 			}
+		}
 
-			if strings.Contains(sentence, word) {
-				GoodSentences = append(GoodSentences, sentence)
-				fmt.Printf("%i-%i", k, j)
-				noRepeatFlag = true
-			}
+		var isGoodItem = !containKanji(tempSentence)
+
+		if isGoodItem && containVocab {
+			reslt = append(reslt, sentence)
+		}
+
+		if k%15000 == 0 {
+			fmt.Printf(".")
 		}
 	}
 
-	fmt.Println(containKanji("ムーリエルは２０になりました。	Muiriel is 20 now."))
+	fmt.Printf("\n")
+
+	return reslt
 
 }
 
@@ -211,7 +241,10 @@ func loadSentencesDB(dbfile string) []string {
 
 }
 
-func containKanji(arg string) (bool, error) {
+func containKanji(arg string) bool {
 	matched, merr := regexp.MatchString(REGEXP_CONTAIN_KANJI, arg)
-	return matched, merr
+	if merr != nil {
+		log.Fatal(merr)
+	}
+	return matched
 }
