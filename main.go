@@ -15,7 +15,7 @@ import (
 const INCORRECT_API_KEY = "Incorrect"
 
 const WK_API_URL = "http://www.wanikani.com/api/user/"
-const WK_API_REQUEST_VOCAB = "/vocabulary"
+const WK_API_REQUEST_VOCAB = "/vocabulary/"
 const WK_API_REQUEST_USER_INFO = "/user-information"
 
 const REGEXP_CONTAIN_KANJI = "[\u4E00-\u9FAF].*"
@@ -23,6 +23,7 @@ const REGEXP_CONTAIN_KANJI = "[\u4E00-\u9FAF].*"
 const SENTENCES_DB_FILENAME = "sentences.db"
 
 var WaniKaniApiKey string
+var Levels = ""
 var Vocabular []string
 var Sentences []string
 var Result []string
@@ -41,6 +42,9 @@ func main() {
 				WaniKaniApiKey = INCORRECT_API_KEY
 				fmt.Printf("Incorrect API key. Please check your input and try again.\n")
 			}
+		case "--levels":
+			Levels = pair[1]
+			fmt.Printf("Request vocab only for levels: %s\n", Levels)
 		}
 	}
 
@@ -63,8 +67,6 @@ func main() {
 	fmt.Printf("Done. See your sentence list in file result.txt.\n")
 
 	writeLines(Result, "result.txt")
-
-	//fmt.Println(containKanji("ムーリエルは２０になりました。	Muiriel is 20 now."))
 
 }
 
@@ -108,7 +110,7 @@ func processingSentences(sent []string, vocab []string) []string {
 func loadWaniKaniData(apik string) []string {
 
 	fmt.Printf("Load your vocabular data.\n")
-	res, err := http.Get(WK_API_URL + apik + WK_API_REQUEST_VOCAB)
+	res, err := http.Get(WK_API_URL + apik + WK_API_REQUEST_VOCAB + Levels)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -173,10 +175,22 @@ func loadWaniKaniData(apik string) []string {
 		RequestedInfo Requested_info `json:"requested_information"`
 	}
 
-	inp := new(WKResponse)
+	type WKResponseLimited struct {
+		UserInfo      User_info    `json:"user_information"`
+		RequestedInfo []Vocab_item `json:"requested_information"`
+	}
+
+	var inp = new(WKResponse)
+	var inpLimited = new(WKResponseLimited)
+	var encode_err error
 
 	jsonResp, resp_err := ioutil.ReadAll(res.Body)
-	encode_err := json.Unmarshal(jsonResp, &inp)
+
+	if Levels != "" {
+		encode_err = json.Unmarshal(jsonResp, &inpLimited)
+	} else {
+		encode_err = json.Unmarshal(jsonResp, &inp)
+	}
 
 	if resp_err != nil {
 		log.Fatal(resp_err)
@@ -189,13 +203,22 @@ func loadWaniKaniData(apik string) []string {
 
 	res.Body.Close()
 
-	result := make([]string, len(inp.RequestedInfo.Items))
+	var json = new(WKResponse)
 
-	for k, word := range inp.RequestedInfo.Items {
+	if Levels != "" {
+		json.RequestedInfo.Items = inpLimited.RequestedInfo
+		json.UserInfo = inpLimited.UserInfo
+	} else {
+		json = inp
+	}
+
+	result := make([]string, len(json.RequestedInfo.Items))
+
+	for k, word := range json.RequestedInfo.Items {
 		result[k] = word.Character
 	}
 
-	fmt.Printf("Hello, %s of sect %s! ^_^\n", inp.UserInfo.Username, inp.UserInfo.Title)
+	fmt.Printf("Hello, %s of sect %s! ^_^\n", json.UserInfo.Username, json.UserInfo.Title)
 
 	return result
 
