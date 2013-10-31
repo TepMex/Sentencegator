@@ -16,6 +16,7 @@ const INCORRECT_API_KEY = "Incorrect"
 
 const WK_API_URL = "http://www.wanikani.com/api/user/"
 const WK_API_REQUEST_VOCAB = "/vocabulary/"
+const WK_API_REQUEST_KANJI = "/kanji/"
 const WK_API_REQUEST_USER_INFO = "/user-information"
 
 const REGEXP_CONTAIN_KANJI = "[\u4E00-\u9FAF].*"
@@ -28,7 +29,10 @@ var Vocabular []string
 var Sentences []string
 var Result []string
 
+var includeB = false
+
 func main() {
+
 	for _, arg := range os.Args {
 		pair := strings.Split(arg, "=")
 		if len(pair) > 2 {
@@ -45,6 +49,9 @@ func main() {
 		case "--levels":
 			Levels = pair[1]
 			fmt.Printf("Request vocab only for levels: %s\n", Levels)
+		case "-b":
+			includeB = true
+			fmt.Printf("B-lines will be included in your result.\n")
 		}
 	}
 
@@ -58,7 +65,11 @@ func main() {
 
 	fmt.Printf("Loading sentences database.\n")
 
-	Sentences = loadSentencesDB(SENTENCES_DB_FILENAME)
+	if !includeB {
+		Sentences = loadSentencesDB(SENTENCES_DB_FILENAME)
+	} else {
+		Sentences = loadSentencesDB("b." + SENTENCES_DB_FILENAME)
+	}
 
 	fmt.Printf("Sentences loaded.\n")
 
@@ -82,6 +93,10 @@ func processingSentences(sent []string, vocab []string) []string {
 
 		var containVocab = false
 
+		if includeB && k%2 == 1 {
+			continue
+		}
+
 		for _, word := range vocab {
 
 			if strings.Contains(tempSentence, word) {
@@ -94,6 +109,9 @@ func processingSentences(sent []string, vocab []string) []string {
 
 		if isGoodItem && containVocab {
 			reslt = append(reslt, sentence)
+			if includeB {
+				reslt = append(reslt, sent[k+1])
+			}
 		}
 
 		if k%15000 == 0 {
