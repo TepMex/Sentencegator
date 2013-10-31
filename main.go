@@ -111,6 +111,7 @@ func processingSentences(sent []string, vocab []string) []string {
 			reslt = append(reslt, sentence)
 			if includeB {
 				reslt = append(reslt, sent[k+1])
+				reslt = append(reslt, "\n")
 			}
 		}
 
