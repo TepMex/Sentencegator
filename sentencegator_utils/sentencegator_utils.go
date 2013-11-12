@@ -14,9 +14,78 @@ import (
 	"strings"
 )
 
+func FastProcessingSentences(sent []string, chunks int, vocab []string, includeB bool) []string {
+
+	var result []string
+	//var main_channel chan string = make(chan string)
+	var quit_channel chan int = make(chan int)
+
+	fmt.Printf("Fast processing\n")
+
+	var nSentences = len(sent)
+	var chunkSize = (nSentences / chunks) + 1
+
+	if includeB && chunkSize%2 != 0 {
+		chunkSize = chunkSize + 1
+	}
+
+	//go buildResult(&result, main_channel, chunks)
+
+	var chunk []string
+
+	for _, s := range sent {
+
+		chunk = append(chunk, s)
+
+		if len(chunk) == chunkSize {
+			go processingSentences(chunk, vocab, includeB, &result, quit_channel)
+			//fmt.Printf("Thread running.\n")
+			var emptyChunk []string
+			chunk = emptyChunk
+			continue
+		}
+	}
+	//fmt.Printf("Thread running.\n")
+	go processingSentences(chunk, vocab, includeB, &result, quit_channel)
+
+	var quits int = 0
+	for {
+		<-quit_channel
+		//fmt.Printf("Thread done.\n")
+		quits++
+		if quits >= chunks {
+			break
+		}
+	}
+
+	return result
+
+}
+
+//func buildResult(res *[]string, ch chan string, chunks int) {
+
+//var quits = 0
+
+//for {
+//fmt.Printf("Channel wake up.\n")
+//	received := <-ch
+//fmt.Printf("%s.\n", received)
+//*res = append(*res, received)
+//q := <-quit
+//quits += q
+//fmt.Printf("Thread running.\n")
+//if quits >= chunks {
+//	fmt.Printf("Quits.\n")
+//	break
+//}
+//}
+//}
+
 func ProcessingSentences(sent []string, vocab []string, includeB bool) []string {
 
 	var reslt []string
+
+	//fmt.Printf("Sentences length: %d\n", len(sent))
 
 	fmt.Printf(assets.O_DATA_PROCESSING)
 
@@ -57,6 +126,41 @@ func ProcessingSentences(sent []string, vocab []string, includeB bool) []string 
 
 	return reslt
 
+}
+
+func processingSentences(sent []string, vocab []string, includeB bool, res *[]string, quit chan int) {
+
+	for k, sentence := range sent {
+
+		var tempSentence = sentence
+
+		var containVocab = false
+
+		if includeB && k%2 == 1 {
+			continue
+		}
+
+		for _, word := range vocab {
+
+			if strings.Contains(tempSentence, word) {
+				containVocab = true
+				tempSentence = strings.Replace(tempSentence, word, "", -1)
+			}
+		}
+
+		var isGoodItem = !ContainKanji(tempSentence)
+
+		if isGoodItem && containVocab {
+			*res = append(*res, sentence)
+			//fmt.Printf("Sent.\n")
+			//if includeB {
+			//	ch <- sent[k+1]
+			//	ch <- "\n"
+			//}
+		}
+	}
+
+	quit <- 1
 }
 
 func LoadWaniKaniData(apik string, levels string) []string {
