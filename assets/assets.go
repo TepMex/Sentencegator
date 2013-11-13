@@ -1,8 +1,7 @@
 package assets
 
 //Version constants
-const SENTENCEGATOR_VERSION = "v1.2a"
-const SENTENCEGATOR_BUILD = "102"
+const SENTENCEGATOR_VERSION = "v2.1b"
 
 //Service constants
 const INCORRECT_API_KEY = "Incorrect"
@@ -20,6 +19,7 @@ const REGEXP_CONTAIN_KANJI = "[\u4E00-\u9FAF].*"
 const F_BSENTENCES_DB = "b.sentences.db"
 const F_SENTENCES_DB = "sentences.db"
 const F_RESULT = "result.txt"
+const F_ALL_WK_KANJI = "wkkanji.txt"
 
 //Output strings(O_ - prefix)
 const O_INCORRECT_API = "Incorrect API key. Please check your input and try again.\n"

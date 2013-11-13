@@ -1,1056 +1,264 @@
-A: この新聞はロハだ。	This newspaper is free.
-B: 此の{この} 新聞 は ロハ~ だ
-
-
-A: はい。これならそらで歌えます。	Yes. This one I can sing from memory.
-B: はい[01] 此れ[01]{これ} なら 空で[02]{そらで}~ 歌う[01]{歌えます}
-
-
-A: 話をやめてくれませんか。	Would you please stop talking?
-B: 話(はなし) を 止める(やめる){やめて} 呉れる{くれません} か
-
-
-A: 話をつけようじゃないか。	Let's talk it out.
-B: 話(はなし) を 付ける{つけよう} じゃないか[02]
-
-
-A: 話をそらすなよ。	Don't change the subject.
-B: 話をそらす~ な[03] よ[01]
-
-
-A: 話をさえぎらないでください。	Please don't cut me off like that.
-B: 話を遮る{話をさえぎらないで}~ 下さい{ください}
-
-
-A: 話はかわりますが。	To change the subject.
-B: 話(はなし) は 変わる{かわります} が
-
-
-A: 話すことはおろか、ささやくなんてとんでもないことです。	Don't whisper, let alone speak.
-B: 話す 事(こと){こと} は 疎か[02]{おろか} 囁く{ささやく} なんて[01] とんでも無い{とんでもない} 事(こと){こと} です
-
-
-A: 話してもいいですか。	May I speak to you?
-B: 話す{話して} も 良い{いい} ですか
-
-
-A: 話しかけるな。	Don't talk!
-B: 話しかける な[03]
-
-
-A: 話したいことがあるのだけど。	I want to talk to you about something.
-B: 話す{話し} たい[01] 事(こと){こと} が[01] 有る{ある} のだ けど
-
-
-A: 話がそれた。	The story wandered.
-B: 話(はなし)[01] が 逸れる{それた}
-
-
-A: 話がうますぎるよ。	That's too good to be true.
-B: 話(はなし) が 上手い{うま} 過ぎる(すぎる){すぎる} よ[01]
-
-
-A: 話があるんだけど。	Can we talk in private?
-B: 話(はなし) が[01] 有る{ある} の[04]{ん} だ けど
-
-
-A: 病人はまだしっかりしている。	The patient is holding his own.
-B: 病人 は 未だ{まだ} 確り{しっかり} 為る(する){している}
-
-
-A: 病気だときいたので。	I've heard you've been sick.
-B: 病気 だ と 聞く{きいた} ので
-
-
-A: 病気だったんだよ。	Oh, I was ill.
-B: 病気 だ{だった} の{ん} だ よ[01]
-
-
-A: 病院まで１０マイルもある。	It is no less than ten miles to the hospital.
-B: 病院 迄{まで} マイル も 有る{ある}
-
-
-A: 買い物をしてきてくれる？	Can you do some shopping for me?
-B: 買い物 を 為る(する){して} 来る(くる){きて} 呉れる{くれる}
-
-
-A: 農民たちは、なにをするのかわからなかった。	The farmers didn't know what to do.
-B: 農民 達{たち} は 何{なに} を 為る(する)[01]{する} の か 分かる{わからなかった}
-
-
-A: 日本語を話すスチュワーデスはいるか。	Is there a Japanese-speaking stewardess?
-B: 日本語 を 話す スチュワーデス は 居る(いる){いる} か
-
-
-A: 日本語が話せますか。	Do you speak Japanese?
-B: 日本語 が 話す{話せます} か
-
-
-A: 日本語は話せますか。	Do you speak Japanese?
-B: 日本語 は 話す{話せます} か
-
-
-A: 日本語の話せるスタッフがいますか。	Do you have any employees who speak Japanese?
-B: 日本語 の 話す スタッフ[01] が 居る(いる)[01]{います} か
-
-
-A: 日本語の新聞はないのですか。	Do you have Japanese newspapers?
-B: 日本語 の 新聞 は 無い{ない} のだ{のです} か
-
-
-A: 日本語の新聞はありますか。	Do you have any Japanese newspapers?
-B: 日本語 の 新聞 は 有る{あります} か
-
-
-A: 日本語のガイドがありますか。	Do you have any museum guides in Japanese?
-B: 日本語 の ガイド が[01] 有る{あります} か
-
-
-A: 日本語で話してはいけません。	Don't speak in Japanese.
-B: 日本語 で 話す{話して} は 行けない[03]{いけません}
-
-
-A: 頭をドアにぶつけてこぶができました。	I bumped my head against the door and got a lump.
-B: 頭(あたま) を ドア に 打付ける{ぶつけて} 瘤{こぶ} が 出来る{できました}
-
-
-A: 頭がよかったらいいのになあ。	I wish I were clever.
-B: 頭がいい{頭がよかったら} 良い{いい} のに な[01]{なあ}
-
-
-A: 頭がはっきりしてきた。	My head has begun to clear.
-B: 頭(あたま) が はっきり 為る(する){して} 来る(くる){きた}
-
-
-A: 頭がじいんとする。	My head hums.
-B: 頭(あたま) が じいんと[01]~ 為る(する){する}
-
-
-A: 頭がぐらぐらします。	My head is swimming.
-B: 頭(あたま) が ぐらぐら 為る(する){します}
-
-
-A: 頭がクラクラします。	My head is spinning.
-B: 頭(あたま) が くらくら{クラクラ} 為る(する){します}
-
-
-A: 調子はどうですか。	How are you doing?
-B: 調子 は 如何(どう){どう} ですか
-
-
-A: 調子いいですか。	How's it going?
-B: 調子 良い{いい} ですか
-
-
-A: 調子でてきたね。	You're hitting your stride.
-B: 調子 出る{でて} 来る(くる){きた} ね[01]
-
-
-A: 地下鉄のちずはありますか。	Do you have a subway map?
-B: 地下鉄 の 地図{ちず} は 有る{あります} か
-
-
-A: 親をあてにしてはいけない。	You should not depend on your parents.
-B: 親(おや)[01] を 当てにする{あてにして} は 行けない[03]{いけない}
-
-
-A: 新聞はもうおすみになりましたか。	Are you through with the paper?
-B: 新聞 は もう[01] 済む{おすみ} になる[02]{になりました} か
-
-
-A: 新聞はおすみになりましたか。	Have you got through with the paper?
-B: 新聞 は 済む{おすみ} になる[02]{になりました} か
-
-
-A: 新聞はいくつとっていますか。	How many papers do you take?
-B: 新聞 は 幾つ[01]{いくつ} 取る{とっています} か
-
-
-A: 新聞にはなにもおもしろいことはなかった。	There was nothing interesting in the newspaper.
-B: 新聞 には 何も[01]{なにも} 面白い{おもしろい} 事(こと){こと} は 無い{なかった}
-
-
-A: 新聞どこ？	Where's the newspaper?
-B: 新聞 何処{どこ}
-
-
-A: 心配するな。	Never mind!
-B: 心配 為る(する){する} な[03]
-
-
-A: 心配するな。もういいよ。	Don't worry. It's OK.
-B: 心配 為る(する){する} な[03] もう 良い{いい} よ[01]
-
-
-A: 心配しなくていいよ。	Don't worry.
-B: 心配 為る(する){しなくて} 良い{いい} よ[01]
-
-
-A: 心配いりません。	Don't worry about that.
-B: 心配 要る{いりません}
-
-
-A: 自転車もらえるかしら。	Do you think I'll get the bike?
-B: 自転車 貰う{もらえる} かしら
-
-
-A: あなたに歌を歌ってもらいたい。	I want you to sing a song.
-B: 私(わたし)[01] は 貴方(あなた)[01]{あなた} に 歌 を 歌う[01]{歌って} 貰う[02]{もらい} たい
-
-
-A: 最後まで話をつづけさせてください。	Let me finish.
-B: 最後 迄{まで} 話(はなし) を 続ける{つづけさせて} 下さい{ください}
-
-
-A: 最後の最後まであきらめるな。	Never give up till the very end.
-B: 最後 の 最後 迄{まで} 諦める{あきらめる} な[03]
-
-
-A: 最後のつめにはいるときです。	It's time to move in for the kill.
-B: 最後 の 詰め[05]{つめ} に 入る(はいる){はいる} 時(とき){とき} です
-
-
-A: 最近調子はどうフランク？	How's everything these days, Frank?
-B: 最近 調子 は 如何(どう){どう}
-
-
-A: 最近どうしてる？	How are you doing these days?
-B: 最近 如何(どう){どう} 為る(する){してる}
-
-
-A: 最近エリザベスにちっともあってない。	I have not seen anything of Elizabeth lately.
-B: 最近 に 些とも{ちっとも}~ 会う[01]{あってない}
-
-
-A: 近道をしよう。	Let's take a short cut.
-B: 近道 を 為る(する){しよう}
-
-
-A: 顔をこちらへ向けなさい。	Turn your face this way.
-B: 顔(かお) を 此方(こちら)[01]{こちら} へ 向ける{向け} なさい
-
-
-A: 顔をそってください。	A shave, please.
-B: 顔(かお) を 剃る{そって} 下さい{ください}
-
-
-A: 顔がひきつります。	My face twitches.
-B: 顔(かお) が 引きつる{ひきつります}
-
-
-A: 顔がほてります。	My cheeks burn.
-B: 顔(かお) が 火照る{ほてります}
-
-
-A: 楽しみにしております。	I'm looking forward to it.
-B: 楽しみにする{楽しみにして} 居る(おる)[02]{おります}
-
-
-A: 歌を歌いましょう。	Let us sing a song.
-B: 歌 を 歌う[01]{歌いましょう}
-
-
-A: 歌がうまければいいのになあ。	I wish I were a good singer.
-B: 歌 が 上手い{うまければ} 良い{いい} のに な[01]{なあ}
-
-
-A: 歌がうまければいいのに。	If only I could sing well.
-B: 歌 が 上手い{うまければ} 良い{いい} のに
-
-
-A: 運がいいね。	It's a godsend.
-B: 運がいい ね[01]
-
-
-A: わたしは最終バスに間に合うのがやっとだった。	I had enough to do to catch the last bus.
-B: 私(わたし)[01]{わたし} は 最終 バス[01] に 間に合う[01] の が やっと だ{だった}
-
-
-A: ローラは病気だったのかもしれない。	Laura may have been sick.
-B: は 病気 だ{だった} の かも知れない{かもしれない}
-
-
-A: よくも顔をつぶしてくれたな。	You really made me lose face.
-B: 善くも{よくも} 顔をつぶす{顔をつぶして}~ 呉れる{くれた} な[01]
-
-
-A: ゆっくりはっきりと話しなさい。	Speak slowly and clearly.
-B: ゆっくり はっきり{はっきりと} 話す{話し} なさい
-
-
-A: やあ、調子はどう。	Hi! What's new?
-B: やあ 調子 は 如何(どう){どう}
-
-
-A: もっとゆっくり話せませんか。	Won't you speak more slowly?
-B: もっと ゆっくり 話す{話せません} か
-
-
-A: もっとゆっくり話していただけませんか。	Could you speak more slowly?
-B: もっと ゆっくり 話す{話して} 頂ける[01]{いただけません} か
-
-
-A: もう話しにならない。	We're not getting anywhere.
-B: もう 話す{話し} になる{にならない}
-
-
-A: もう最高においしかったですよ。	It was really good.
-B: もう 最高{最高に} 美味しい{おいしかった} です よ[01]
-
-
-A: もうみなさんお知り合いになられましたか。	Have you gotten yourselves acquainted?
-B: もう 皆さん{みなさん} 御(ご){お} 知り合い になる{になられました} か
-
-
-A: もうその話はやめましょう。	Let's not talk about it any more.
-B: もう 其の[01]{その} 話(はなし) は 止める(やめる){やめましょう}
-
-
-A: メグはかわいらしい顔つきをしている。	Meg has a lovely face.
-B: は 可愛らしい{かわいらしい} 顔つき を 為る(する){している}
-
-
-A: メキシコではスペイン語を話す。	They speak Spanish in Mexico.
-B: 墨西哥{メキシコ} で は スペイン語 を 話す
-
-
-A: メキシコではスペイン語が話されますか。	Is Spanish spoken in Mexico?
-B: 墨西哥{メキシコ} で は スペイン語 が 話す{話されます} か
-
-
-A: メキシコではスペイン語が話されています。	Spanish is spoken in Mexico.
-B: 墨西哥{メキシコ} で は スペイン語 が 話す{話されています}
-
-
-A: メアリーは日本語をゆっくりと話しました。	Mary spoke Japanese slowly.
-B: は 日本語 を ゆっくり{ゆっくりと} 話す{話しました}
-
-
-A: メアリーは日本語が話せる。	Mary can speak Japanese.
-B: は 日本語 が 話せる[01]
-
-
-A: メアリーはフランス語を読むことさえできない、まして話すことはできない。	Mary can't even read French, much less speak it.
-B: は フランス語 を 読む 事(こと){こと} さえ 出来る{できない} 況して[02]{まして} 話す 事(こと){こと} は 出来る{できない}
-
-
-A: メアリーはフランス語を読むことさえできない、ましてフランス語を話すことはできない。	Mary can't even read French, much less speak it.
-B: は フランス語 を 読む 事(こと){こと} さえ 出来る{できない} 況して[02]{まして}~ フランス語 を 話す 事(こと){こと} は 出来る{できない}
-
-
-A: メアリーはフランス語を読むことさえできない、フランス語を話すことはなおさらできない。	Mary can't even read French, much less speak it.
-B: は フランス語 を 読む 事(こと){こと} さえ 出来る{できない} フランス語 を 話す 事(こと){こと} は 尚更{なおさら} 出来る{できない}
-
-
-A: メアリーとどうして知り合いになったのですか。	How did you get to know Mary?
-B: と 如何して{どうして} 知り合い になる[01]{になった} のだ{のです} か
-
-
-A: まだ頭がくらくらした。	My head still felt giddy.
-B: 未だ[01]{まだ} 頭(あたま) が くらくら 為る(する){した}
-
-
-A: またあなたと話をしにきてしまった。	I've come to talk with you again.
-B: 又{また} 貴方(あなた)[01]{あなた} と[03] 話をする{話をし} に 来る(くる)[01]{きて} 仕舞う{しまった}
-
-
-A: マイクはお酒をやめたの？	Is Mike off the bottle?
-B: は お酒 を 止める(やめる){やめた} の
-
-
-A: マーシャにその話をしたとき、いかめしい顔つきをした。	Marcia looked grim when I told her the story.
-B: に 其の[01]{その} 話(はなし)[01] を 為る(する){した} 時(とき){とき} 厳しい{いかめしい} 顔つき を 為る(する){した}
-
-
-A: ボブは親にそっくりね。	Bob's really chip off the old block.
-B: は 親(おや)[01] に そっくり ね[01]
-
-
-A: ボブはいったい病気なのだろうか。	Can Bob be sick?
-B: は 一体[01]{いったい} 病気 だ{な} の だろう か
-
-
-A: ほとんど話せない。	He can hardly speak.
-B: 殆ど{ほとんど} 話す{話せない}
-
-
-A: ぼくの自転車はパンクしている。	My bicycle has a flat tire.
-B: 僕(ぼく)[01]{ぼく} の 自転車 は パンク[01] 為る(する){している}
-
-
-A: ボーイが運ぶ。	I had the boy carry my bag.
-B: ボーイ が 運ぶ
-
-
-A: ベティはベッドに横になった。	Betty laid herself on the bed.
-B: は ベッド に 横になる{横になった}~
-
-
-A: ベティはうまく歌うことができた。	Betty could sing better.
-B: は 上手い[01]{うまく} 歌う[01] 事(こと){こと} が[01] 出来る{できた}
-
-
-A: ベッドに横になっていた。	He lay on the bed.
-B: ベッド に 横になる{横になっていた}
-
-
-A: フランス語はフランスで話されます。	French is spoken in France.
-B: フランス語 は 仏蘭西{フランス} で 話す{話されます}
-
-
-A: フランス語であまり話しません。	I don't speak French very much.
-B: フランス語 で 余り[02]{あまり} 話す{話しません}
-
-
-A: フランス語が話せさえすればなあ。	If only I could speak French.
-B: フランス語 が 話す{話せ} さえすれば な[01]{なあ}
-
-
-A: ぶっちゃけた話、これっていくらぐらいしたの？	Sorry to be so direct, but how much did you pay for this?
-B: ぶっちゃける{ぶっちゃけた}~ 話(はなし) 此れ[01]{これ} って 幾ら{いくら} 位(くらい){ぐらい} 為る(する){した} の
-
-
-A: ビルは日本語をすこし話すことができる。	Bill can speak Japanese a little.
-B: は 日本語 を 少し{すこし} 話す 事(こと){こと} が[01] 出来る{できる}
-
-
-A: ビルはトイレで歌を歌うことがある。	Bill will often sing in the toilet.
-B: は トイレ で 歌 を 歌う[01] 事がある{ことがある}
-
-
-A: ビールを飲むのはやめている。	I'm off beer.
-B: 麦酒{ビール} を 飲む[01] の は 止める(やめる){やめている}
-
-
-A: はっきり話しなさい。	Speak clear.
-B: はっきり 話す{話し} なさい
-
-
-A: ばかな話はよせ。	Stop your nonsense!
-B: 馬鹿{ばかな} 話(はなし) は 止す(よす){よせ}
-
-
-A: ばかなまね話はよせ。	Stop your nonsense!
-B: 馬鹿な真似{ばかなまね} 話(はなし) は 止す(よす){よせ}
-
-
-A: パーティーはほとんど終わるところでした。	The party was almost over.
-B: パーティー は 殆ど{ほとんど} 終わる 所(ところ){ところ} です{でした}
-
-
-A: パーティーの開始に間に合うでしょうか。	Will we be in time for the beginning of the party?
-B: パーティー の 開始 に 間に合う[01] でしょう[01] か
-
-
-A: パーティーが楽しみだ。	I'm looking forward to the party.
-B: パーティー が 楽しみ[02] だ
-
-
-A: ねねね、そんないやな顔しないでよ。	Hey, come on. Don't make a face.
-B: ね[02] ね[02] ね[02] そんな 嫌{いやな} 顔(かお) 為る(する){しないで} よ[01]
-
-
-A: なんとみごとに歌を歌うのでしょう。	How beautifully she sings!
-B: 何と{なんと} 見事[01]{みごとに} 歌 を 歌う[01] の でしょう[01]
-
-
-A: なんとすてきな顔をしているのだろう。	What a nice face she has!
-B: 何と{なんと} 素敵{すてきな} 顔(かお) を 為る(する){している} の だろう
-
-
-A: なんて頭がいいんだろう。	How smart!
-B: 何て[01]{なんて} 頭がいい の[04]{ん} だろう
-
-
-A: なんだい、話したいことって。	What do you want to talk to me about?
-B: 何{なん} だい 話す{話し} たい[01] 事(こと){こと} って
-
-
-A: なるべくゆっくり話してもらえますか。	Could you speak as slowly as possible?
-B: 成るべく{なるべく} ゆっくり 話す{話して} 貰う[02]{もらえます} か
-
-
-A: とりあえず、あたりさわりのない話をしておいたよ。	I steered clear of sensitive topics.
-B: 取りあえず{とりあえず} 当たり障りの無い{あたりさわりのない}~ 話(はなし) を 為る(する){して} 置く{おいた} よ[01]
-
-
-A: トムは日本語がぺらぺらだ。	Tom is a fluent speaker of Japanese.
-B: は 日本語 が ぺらぺら[01]~ だ
-
-
-A: トムはビルよりゆっくり話す。	Tom speaks more slowly than Bill.
-B: は より ゆっくり 話す
-
-
-A: トムはスペイン語を話すし、ベティもそうだ。	Tom speaks Spanish, and Betty speaks Spanish, too.
-B: は スペイン語 を 話す 為る(する){し} も そう[01] だ
-
-
-A: どのくらい病気なのですか。	How long have you been ill?
-B: どの位{どのくらい} 病気 なのだ{なのです} か
-
-
-A: どなたとお話しになりたいのですか。	Who do you want to speak to?
-B: 何方(どなた){どなた} と[03] 話す{お話} になる[02]{になり} たい[01] のだ{のです} か
-
-
-A: どこの新聞をとっていますか。	What papers do you take?
-B: 何処{どこ} の 新聞 を 取る{とっています} か
-
-
-A: どうやってボンネットを開けるのですか。	How do I open the hood?
-B: どうやって ボンネット~ を[01] 開ける(あける)[01] のだ{のです} か
-
-
-A: どうぞもっとゆっくり話してください。	Please speak more slowly.
-B: どうぞ[01] もっと ゆっくり 話す{話して} 下さい{ください}
-
-
-A: どう、調子は？	What's happening?
-B: 如何(どう){どう} 調子 は
-
-
-A: テレビの調子がよくない。	There's nothing good on television.
-B: テレビ の 調子 が 良い{よくない}
-
-
-A: できるかぎり話をはっきりさせよう。	We'll get this as clear as possible.
-B: 出来る{できる} 限り[02]{かぎり} 話(はなし) を はっきり 為せる{させよう}
-
-
-A: でかい顔してるじゃないか。	You're being bossy, aren't you?
-B: でかい顔する{でかい顔してる}~ じゃないか[01]
-
-
-A: ディナーはたいがいコーヒーで終わる。	Coffee finishes most dinners.
-B: ディナー は 大概[02]{たいがい}~ 珈琲{コーヒー} で 終わる
-
-
-A: ちょっと話があります。	I have something to tell you.
-B: 一寸(ちょっと){ちょっと} 話(はなし) が[01] 有る{あります}
-
-
-A: ちょっと仕返ししてやった。	I got a little revenge on him.
-B: 一寸(ちょっと){ちょっと} 仕返し 為る(する){して} 遣る[05]{やった}
-
-
-A: ちょっとお話してもよろしいですか。	May I talk with you for a moment?
-B: 一寸(ちょっと){ちょっと} 話(はなし){お話} 為る(する)[12]{して} も 宜しい{よろしい} ですか
-
-
-A: ちょっとお話したいのですけれど。	I'd like to speak to you for a moment.
-B: 一寸(ちょっと){ちょっと} 話(はなし){お話} したい のだ{のです} けど{けれど}
-
-
-A: ちょっとお話ししてもいいですか。	Can I have a word with you?
-B: 一寸(ちょっと){ちょっと} 御(ご){お} 話す{話しして} も 良い{いい} ですか
-
-
-A: ちょっといっぱいやりながら話そう。	Let's have a talk over a couple of drinks.
-B: 一寸(ちょっと){ちょっと} 一杯{いっぱい} 遣る{やり} 乍ら[01]{ながら} 話す{話そう}
-
-
-A: ちょうどあなたのことをお話していたところです。	We were just talking about you.
-B: 丁度{ちょうど} 貴方(あなた)[01]{あなた} の 事(こと){こと} を 話(はなし){お話} 為る(する)[12]{していた} 所(ところ){ところ} です
-
-
-A: だれと話していたのですか。	Who were you talking with?
-B: 誰{だれ} と 話す{話していた} のだ{のです} か
-
-
-A: だるいし頭がずきずきする。	I feel listless and have a throbbing headache.
-B: 怠い{だるい}~ 為る(する){し} 頭(あたま) が ずきずき~ 為る(する){する}
-
-
-A: タオルで顔をふきなさい。	Dry your face with a towel.
-B: タオル で 顔(かお) を 拭く{ふき} なさい
-
-
-A: たいしたことではない、心配するな。	Never mind!
-B: 大した{たいした} 事(こと){こと} だ{ではない} 心配 為る(する){する} な[03]
-
-
-A: そんな話にだまされるなんて、よくよくおめでたいね。	You must be very simple to be taken in by such a story.
-B: そんな 話(はなし)[01] に 騙す{だまされる} なんて[01] 善く善く{よくよく}~ お芽出度い{おめでたい} ね[01]
-
-
-A: そんなつまらないことを心配するな。	Don't worry about such a silly thing.
-B: そんな 詰らない[02]{つまらない} 事(こと){こと} を 心配 為る(する){する} な[03]
-
-
-A: そんなつまらないことで心配するな。	Don't worry about such a trifle.
-B: そんな 詰らない[02]{つまらない} 事(こと){こと} で 心配 為る(する){する} な[03]
-
-
-A: そんなことを心配するな。	Don't worry about such a thing.
-B: そんな 事(こと){こと} を 心配 為る(する){する} な[03]
-
-
-A: それを日本語でどういうのがわかりません。	I don't know how to put it in Japanese.
-B: 其れ[01]{それ} を 日本語 で 如何いう{どういう} の が 分かる{わかりません}
-
-
-A: それは楽しみです。	I'll look forward to it.
-B: 其れ[01]{それ} は 楽しみ[02] です
-
-
-A: それはつい最近のことです。	It happened quite recently.
-B: 其れ[01]{それ} は つい[01] 最近 の[01]{の} 事(こと){こと} です
-
-
-A: それはたいへんな話だ。	That's quite a story.
-B: 其れ[01]{それ} は 大変{たいへんな} 話(はなし)[01] だ
-
-
-A: それはあまりにもうますぎる話だ。	That's too good a story to be true.
-B: 其れ[01]{それ} は 余りにも{あまりにも} 上手い[03]{うま}~ 過ぎる(すぎる){すぎる} 話(はなし)[01] だ
-
-
-A: それで最後だ！	That's the last straw!
-B: 其れで{それで} 最後 だ
-
-
-A: それで間に合うでしょう。	That will do.
-B: 其れ[01]{それ} で 間に合う[02] でしょう[01]
-
-
-A: それではまるで話がちがう。	That's quite another thing to what you promised.
-B: 其れでは[02]{それでは} 丸で{まるで} 話が違う{話がちがう}~
-
-
-A: それが親ばかというものさ。	We parents sometimes become blind in loving our children too much.
-B: 其れ[01]{それ} が 親馬鹿{親ばか}~ と言うもの{というもの} さ[02]
-
-
-A: ソファーに横になってもかまいませんか。	May I lie on the sofa?
-B: ソファ{ソファー} に 横になる{横になって} も 構いません{かまいません} か
-
-
-A: その話はもうやめにしよう。	Let the matter drop.
-B: 其の[01]{その} 話(はなし) は もう 止める(やめる){やめ} に 為る(する){しよう}
-
-
-A: その話はもうたくさんだ。	I've gadded enough of that story.
-B: 其の[01]{その} 話(はなし)[01] は もう 沢山{たくさん} だ
-
-
-A: その話はここではタブーです。	The topic is taboo here.
-B: 其の[01]{その} 話(はなし) は 此処[01]{ここ} で は タブー~ です
-
-
-A: その物語はハッピーエンドだ。	The story ends happily.
-B: 其の[01]{その} 物語 は ハッピーエンド だ
-
-
-A: その物語はおなじみである。	The tale is familiar to us.
-B: 其の[01]{その} 物語 は お馴染み{おなじみ}~ である
-
-
-A: その病気はたいしたことにはならなかった。	The effects of the illness were not serious.
-B: 其の[01]{その} 病気 は 大した{たいした} 事(こと){こと} には 成る{ならなかった}
-
-
-A: その調子でがんばって。	Keep it up.
-B: 其の[01]{その} 調子 で 頑張って{がんばって}
-
-
-A: その調子だよ。	That's the way.
-B: 其の[01]{その} 調子 だ よ[01]
-
-
-A: その調子だ。	That's the spirit.
-B: 其の[01]{その} 調子 だ
-
-
-A: そのことを話してよ。	Tell me about it.
-B: 其の[01]{その} 事(こと){こと} を 話す{話して} よ[01]
-
-
-A: そのことを親にいってはいけないよ。	You mustn't tell that to your parents.
-B: 其の[01]{その} 事(こと){こと} を 親(おや)[01] に 言う{いって} は 行けない[03]{いけない} よ[01]
-
-
-A: そのことは心配ないよ。	You can bet your boots on that.
-B: 其の[01]{その} 事(こと){こと} は 心配 無い{ない} よ[01]
-
-
-A: そのことは心配するな。	Don't worry about that.
-B: 其の[01]{その} 事(こと){こと} は 心配 為る(する){する} な[03]
-
-
-A: そのことについて心配するな。	Don't worry about it.
-B: 其の[01]{その} 事(こと){こと} に就いて{について} 心配 為る(する){する} な[03]
-
-
-A: ソニアはおかしそうな顔をしていた。	Sonia had a very amused look on her face.
-B: は 可笑しい{おかしそうな} 顔(かお) を 為る(する){していた}
-
-
-A: そう心配しなくてもいいよ。	You don't have to be so nervous.
-B: そう 心配 為る(する){し} なくても良い[01]{なくてもいい} よ[01]
-
-
-A: そうそうその調子。	That a boy.
-B: 然う然う[02]{そうそう}~ 其の[01]{その} 調子
-
-
-A: そういう話もあったな。	I guess there was some talk of that.
-B: そう言う{そういう} 話(はなし) も 有る{あった} な[01]
-
-
-A: スポーツはからだの調子をよくする。	Sports keep us in good shape.
-B: スポーツ は 体(からだ)[02]{からだ} の 調子 を 良くする[01]{よくする}
-
-
-A: スペイン語が話せたらよかったのに。	I wish I could have spoken Spanish.
-B: スペイン語 が 話す{話せたら} 良い{よかった} のに
-
-
-A: すでにお話しました。	I already told you.
-B: 既に{すでに} 話(はなし){お話} 為る(する)[12]{しました}
-
-
-A: すごく心配しました。	I was biting my nails, worrying about you.
-B: 凄く{すごく} 心配 為る(する){しました}
-
-
-A: ジルはかわいいだけでなく頭もよい。	Jill is smart as well as pretty.
-B: ジル~ は 可愛い[01]{かわいい} だけでなく 頭(あたま)[02] も 良い{よい}
-
-
-A: ジョンはスコッチを、メアリーはバーボンを飲む。	John drinks Scotch and Mary bourbon.
-B: は スコッチ~ を は バーボン~ を 飲む[01]
-
-
-A: ジョンとお話したいのですが。	Is John available now?
-B: と 話(はなし){お話} したい のだ{のです} が[03]
-
-
-A: ジョン・ワーナーさんとお話ししたいのですが。	I'd like to speak to John Warner.
-B: さん と 御(ご){お} 話す{話しし} たい[01] のだ{のです} が[03]
-
-
-A: ジョージ、話がある。おっかさんがいるだろ。	George, I have something to tell you. You have a mother, don't you?
-B: 話(はなし) が[01] 有る{ある} 御っ母さん{おっかさん} が 居る(いる)[01]{いる} だろう{だろ}
-
-
-A: ジュディさんとお話したいのですが。	I'd like to speak to Judy.
-B: さん と 話(はなし){お話} したい のだ{のです} が[03]
-
-
-A: ジャックは病気らしい。	It seems that Jack is sick.
-B: は 病気 らしい
-
-
-A: ジャックはフランス語も話すことができる。	Jack can speak French.
-B: は フランス語 も 話す 事(こと){こと} が[01] 出来る{できる}
-
-
-A: ジャックはスペイン語も話すかもしれない。	Jack may speak Spanish, too.
-B: は スペイン語 も 話す かも知れない{かもしれない}
-
-
-A: ジム・ロビンソンとはいつからの知り合いですか。	How long have you known Jim Robinson?
-B: と は 何時から(いつから)[03]{いつから} の 知り合い ですか
-
-
-A: ジェーンは歌うでしょうか。	Will Jane sing?
-B: は 歌う[01] でしょう[01] か
-
-
-A: さあ話たまえ。	Now tell me.
-B: さあ 話(はなし) 給え{たまえ}
-
-
-A: さあ歌を歌いましょう。	Let's sing a song.
-B: さあ 歌[01] を 歌う[01]{歌いましょう}
-
-
-A: ご病気だったそうですね。	I hear you have been sick.
-B: 御(ご){ご} 病気 だ{だった} そうだ[02]{そうです} ね[01]
-
-
-A: ご心配ありがとう。	Thank you for your concern.
-B: 御(ご){ご} 心配 有り難う{ありがとう}
-
-
-A: コンサートに間に合うでしょうか。	Will we be in time for the concert?
-B: コンサート に 間に合う[01] でしょう[01] か
-
-
-A: これらのリンゴを運ぶためのカゴがほしい。	I want a basket in which to carry these apples.
-B: 此れ等{これらの} 林檎{リンゴ} を 運ぶ 為(ため){ため} の 籠{カゴ} が 欲しい[01]{ほしい}
-
-
-A: これは頭にくる。	This is making me really angry.
-B: 此れ[01]{これ} は 頭に来る{頭にくる}~
-
-
-A: これはマイクの自転車です。	This is Mike's bicycle.
-B: 此れ[01]{これ} は の 自転車 です
-
-
-A: これはここだけの話ですよ。	This is just among ourselves.
-B: 此れ[01]{これ} は 此処{ここ} 丈(だけ){だけ} の 話(はなし) です よ[01]
-
-
-A: これはきみの自転車？	Is this your bike?
-B: 此れ[01]{これ} は 君(きみ){きみの} 自転車
-
-
-A: これにて終了。	The end, so long good bye!
-B: 此れ[01]{これ} にて 終了
-
-
-A: これが最高。	This is much the best.
-B: 此れ[01]{これ} が 最高
-
-
-A: これが最後だから。	This is the last time.
-B: 此れ[01]{これ} が 最後 だから
-
-
-A: こまはぐるぐる回転した。	The top went around and around.
-B: 独楽{こま}~ は ぐるぐる 回転~ 為る(する){した}
-
-
-A: この話はあれよりずっとおもしろい。	This story is by far more interesting than that one.
-B: 此の{この} 話(はなし)[01] は 彼(あれ)[01]{あれ} より ずっと[02] 面白い{おもしろい}
-
-
-A: この線の終点はどこですか。	Where is the end of this line?
-B: 此の{この} 線~ の 終点~ は 何処{どこ} ですか
-
-
-A: この歌を歌おうじゃないか。	Let's sing this song, shall we?
-B: 此の{この} 歌[01] を 歌う[01]{歌おう} じゃないか[02]
-
-
-A: この歌を歌えますか。	Can you sing this song?
-B: 此の{この} 歌[01] を 歌う[01]{歌えます} か
-
-
-A: この歌をうたいましょう。	Let's sing this song, shall we?
-B: 此の{この} 歌[01] を 歌う[01]{うたいましょう}
-
-
-A: この歌はラブソングです。	This song is a love song.
-B: 此の{この} 歌[01] は ラブソング~ です
-
-
-A: このところ調子はいかがですか。	How have you been getting on?
-B: 此の{この} 所(ところ){ところ} 調子 は 如何(どう){いかが} ですか
-
-
-A: このデータを最終チェックしてもらえないか。	Could you give this data a final check for me?
-B: 此の{この} データ を 最終 チェック 為る(する){して} 貰う[02]{もらえない} か
-
-
-A: ここまでやったんだから最後までやってしまおう。	As long as I've come this far, I'll see it through.
-B: 此処{ここ} 迄{まで} 遣る{やった} の{ん} だから 最後[01] 迄{まで} 遣る{やって} 仕舞う{しまおう}
-
-
-A: ここは病院だ。	This is a hospital.
-B: 此処{ここ} は 病院 だ
-
-
-A: ここだけの話なんだけど。	This is just between you and me.
-B: 此処{ここ} 丈(だけ){だけ} の 話(はなし) なのだ{なんだ} けど
-
-
-A: ここだけの話だが。	This is just between you and me.
-B: 此処{ここ} 丈(だけ){だけ} の 話(はなし) だ が[03]
-
-
-A: けってドアを開けるな。	Don't kick the door open.
-B: 蹴る[01]{けって}~ ドア を[01] 開ける(あける)[01] な[03]
-
-
-A: くだらない話はもうたくさんだ。	We have had enough of empty words.
-B: 下らない{くだらない}~ 話(はなし) は もう 沢山{たくさん} だ
-
-
-A: ギリギリのところで間に合う。	I just made it under the wire.
-B: ぎりぎり[01]{ギリギリ}~ の 所(ところ){ところ} で 間に合う[01]
-
-
-A: きみはひどい病気にかかるかもしれない。	You may get a serious disease.
-B: 君(きみ){きみ} は 酷い(ひどい){ひどい} 病気にかかる かも知れない{かもしれない}
-
-
-A: きっとジムがその話をでっちあげたんだ。	I am sure that Jim made up that story.
-B: 屹度[01]{きっと} が 其の[01]{その} 話(はなし)[01] を でっち上げる[01]{でっちあげた} のだ{んだ}
-
-
-A: かのじょはビールを飲むくせがついた。	She took to drinking beer.
-B: 彼女{かのじょ} は 麦酒{ビール} を 飲む[01] 癖{くせ} が 付く(つく)[04]{ついた}
-
-
-A: カナダではフランス語を話しますか。	Do they speak French in Canada?
-B: 加奈陀{カナダ}~ で は フランス語 を 話す{話します} か
-
-
-A: お話してもよいですか。	May I talk to you?
-B: 話(はなし){お話} 為る(する)[12]{して} も 良い{よい} ですか
-
-
-A: お話したいことがあります。	Can we talk?
-B: 話(はなし){お話} したい 事がある{ことがあります}
-
-
-A: お話させていただいてもよろしいでしょうか。	May I speak with you?
-B: 御(ご){お} 話(はなし) 為せる{させて} 頂く[01]{いただいて} も 宜しい{よろしい} でしょう[01] か
-
-
-A: お話があるのですけど。	I have something to tell you.
-B: 御(ご){お} 話(はなし) が[01] 有る{ある} のだ{のです} けど
-
-
-A: お話があるのですが。	Can we have a talk?
-B: 御(ご){お} 話(はなし) が[01] 有る{ある} のだ{のです} が[03]
-
-
-A: お知り合いになれてうれしい。	I'm glad to meet you.
-B: 御(ご){お} 知り合い になる{になれて} 嬉しい{うれしい}
-
-
-A: お知り合いなんですか。	Do you know each other?
-B: 御(ご){お} 知り合い なのだ{なんです} か
-
-
-A: お楽しみなのですね。	You're enjoying yourself.
-B: 楽しむ{お楽しみ} なのだ{なのです} ね[01]
-
-
-A: おまえなんかに話すんじゃなかったよ。	I shouldn't have told you nothin'.
-B: お前{おまえ} なんか に 話す の{ん} だ{じゃなかった} よ[01]
-
-
-A: おじいさんはとてもゆっくりと話す。	Grandfather speaks very slowly.
-B: お祖父さん[01]{おじいさん} は 迚も[01]{とても} ゆっくり{ゆっくりと} 話す
-
-
-A: エアコンの調子がおかしい。	The air conditioner doesn't work.
-B: エアコン の 調子 が 可笑しい{おかしい}
-
-
-A: うかぬ顔をしているね。	You look gloomy.
-B: 浮かぬ顔をする{うかぬ顔をしている} ね[01]
-
-
-A: いつ終わるの？	When does it end?
-B: 何時(いつ){いつ} 終わる の
-
-
-A: いい線いってるよ。	I think you're on the right track.
-B: 良い{いい} 線 行く{いってる} よ[01]
-
-
-A: いい線いっていますよ。	It's going nicely!
-B: 良い{いい} 線 行く{いっています} よ[01]
-
-
-A: いい顔になってきたね。	Like a good wine, he improves with age.
-B: 良い{いい} 顔(かお) になる[01]{になって} 来る(くる){きた} ね[01]
-
-
-A: いいかげんな話はやめろ。	Don't give me that!
-B: いい加減[01]{いいかげんな}~ 話(はなし) は 止める(やめる){やめろ}
-
-
-A: いいえ、歌いません。	No, I'm not singing.
-B: 否(いいえ){いいえ} 歌う[01]{歌いません}
-
-
-A: アンは病気のようだ。	Ann seems to be ill.
-B: は 病気{病気の} 様だ{ようだ}
-
-
-A: あんなことをするなんて頭がどうかしている。	You've got to be crazy to do something like that.
-B: あんな 事(こと){こと} を 為る(する)[01]{する} なんて[01] 頭(あたま)[02] が 如何(どう){どう} か 為る(する){している}
-
-
-A: あまり心配するとはげるよ。	Don't worry too much, or you'll go bald.
-B: 余り{あまり} 心配 為る(する){する} と 禿げる{はげる} よ[01]
-
-
-A: あなたは日本語を話しますか。	Do you speak Japanese?
-B: 貴方(あなた)[01]{あなた} は 日本語 を 話す{話します} か
-
-
-A: あなたは頭がいい。	You are sharp.
-B: 貴方(あなた)[01]{あなた} は 頭がいい
-
-
-A: あなたは歌を歌えます。	You can sing a song.
-B: 貴方(あなた)[01]{あなた} は 歌 を 歌う[01]{歌えます}
-
-
-A: あなたは歌うつもりですか。	Are you going to sing?
-B: 貴方(あなた)[01]{あなた} は 歌う[01] 積もり[01]{つもり} ですか
-
-
-A: あなたは運がいい。	You're in luck.
-B: 貴方(あなた)[01]{あなた} は 運がいい
-
-
-A: あなたはフランス語が話せますか。	Can you speak French?
-B: 貴方(あなた)[01]{あなた} は フランス語 が 話す{話せます} か
-
-
-A: あなたはどの新聞をとっていますか。	What papers do you take in?
-B: 貴方(あなた)[01]{あなた} は 何の(どの){どの} 新聞 を 取る{とっています} か
-
-
-A: あなたにお話するよいことがあります。	I have something good to tell you.
-B: 貴方(あなた)[01]{あなた} に 話(はなし){お話} 為る(する)[12]{する} 良い{よい} 事がある{ことがあります}
-
-
-A: あなたにお話があるのですが。	I would like to tell you something.
-B: 貴方(あなた)[01]{あなた} に 御(ご){お} 話(はなし) が[01] 有る{ある} のだ{のです} が[03]
-
-
-A: あなたと話しあいたいことがあります。	There's something I need to talk with you about.
-B: 貴方(あなた)[01]{あなた} と[03] 話し合う{話しあいたい} 事がある{ことがあります}
-
-
-A: あなたとお話しできてうれしかったです。	Nice talking with you.
-B: 貴方(あなた)[01]{あなた} と[03] 話す{お話し} 出来る{できて} 嬉しい{うれしかった} です
-
-
-A: あなたとお話ししていいですか。	May I talk with you?
-B: 貴方(あなた)[01]{あなた} と[03] 話す{お話し} 為る(する)[12]{して} 良い{いい} ですか
-
-
-A: あなたとお話ししたいことがあるのですが。	May I have a talk with you?
-B: 貴方(あなた)[01]{あなた} と[03] 話す{お話し} したい 事(こと){こと} が[01] 有る{ある} のだ{のです} が[03]
-
-
-A: あいつは、まったく頭にくるやつだ。	That guy really burns me up.
-B: 彼奴{あいつ} は 全く{まったく} 頭に来る{頭にくる} 奴(やつ)[01]{やつ} だ
-
-
-A: あいつには頭にきた！	I'm up to here with him!
-B: 彼奴{あいつ} には 頭に来る{頭にきた}
-
-
-A: ＡからＢまで線をひきなさい。	Draw a line from A to B.
-B: から[01] 迄{まで} 線 を 引く[05]{ひき}~ なさい
-
-
-A: 最近どうだ？	How have you been recently?
-B: 最近 如何(どう){どう} だ
-
-
-A: 心配しないで。	Don't worry.
-B: 心配 為る(する){しないで}
-
-
-A: なんで聞くの？	Why do you ask?
-B: 何で{なんで} 聞く の
-
-
-A: あつしは病気だったかもしれない。	Atsushi may have been sick.
-B: は 病気 だ{だった} かも知れない{かもしれない}
-
-
+この新聞はロハだ。	This newspaper is free.
+はい。これならそらで歌えます。	Yes. This one I can sing from memory.
+話をやめてくれませんか。	Would you please stop talking?
+話をつけようじゃないか。	Let's talk it out.
+話をそらすなよ。	Don't change the subject.
+話をさえぎらないでください。	Please don't cut me off like that.
+話はかわりますが。	To change the subject.
+話すことはおろか、ささやくなんてとんでもないことです。	Don't whisper, let alone speak.
+話してもいいですか。	May I speak to you?
+話しかけるな。	Don't talk!
+話したいことがあるのだけど。	I want to talk to you about something.
+話がそれた。	The story wandered.
+話がうますぎるよ。	That's too good to be true.
+話があるんだけど。	Can we talk in private?
+病人はまだしっかりしている。	The patient is holding his own.
+病気だときいたので。	I've heard you've been sick.
+病気だったんだよ。	Oh, I was ill.
+病院まで１０マイルもある。	It is no less than ten miles to the hospital.
+買い物をしてきてくれる？	Can you do some shopping for me?
+農民たちは、なにをするのかわからなかった。	The farmers didn't know what to do.
+日本語を話すスチュワーデスはいるか。	Is there a Japanese-speaking stewardess?
+日本語が話せますか。	Do you speak Japanese?
+日本語は話せますか。	Do you speak Japanese?
+日本語の話せるスタッフがいますか。	Do you have any employees who speak Japanese?
+日本語の新聞はないのですか。	Do you have Japanese newspapers?
+日本語の新聞はありますか。	Do you have any Japanese newspapers?
+日本語のガイドがありますか。	Do you have any museum guides in Japanese?
+日本語で話してはいけません。	Don't speak in Japanese.
+頭をドアにぶつけてこぶができました。	I bumped my head against the door and got a lump.
+頭がよかったらいいのになあ。	I wish I were clever.
+頭がはっきりしてきた。	My head has begun to clear.
+頭がじいんとする。	My head hums.
+頭がぐらぐらします。	My head is swimming.
+頭がクラクラします。	My head is spinning.
+調子はどうですか。	How are you doing?
+調子いいですか。	How's it going?
+調子でてきたね。	You're hitting your stride.
+地下鉄のちずはありますか。	Do you have a subway map?
+親をあてにしてはいけない。	You should not depend on your parents.
+新聞はもうおすみになりましたか。	Are you through with the paper?
+新聞はおすみになりましたか。	Have you got through with the paper?
+新聞はいくつとっていますか。	How many papers do you take?
+新聞にはなにもおもしろいことはなかった。	There was nothing interesting in the newspaper.
+新聞どこ？	Where's the newspaper?
+心配するな。	Never mind!
+心配するな。もういいよ。	Don't worry. It's OK.
+心配しなくていいよ。	Don't worry.
+心配いりません。	Don't worry about that.
+自転車もらえるかしら。	Do you think I'll get the bike?
+あなたに歌を歌ってもらいたい。	I want you to sing a song.
+最後まで話をつづけさせてください。	Let me finish.
+最後の最後まであきらめるな。	Never give up till the very end.
+最後のつめにはいるときです。	It's time to move in for the kill.
+最近調子はどうフランク？	How's everything these days, Frank?
+最近どうしてる？	How are you doing these days?
+最近エリザベスにちっともあってない。	I have not seen anything of Elizabeth lately.
+近道をしよう。	Let's take a short cut.
+顔をこちらへ向けなさい。	Turn your face this way.
+顔をそってください。	A shave, please.
+顔がひきつります。	My face twitches.
+顔がほてります。	My cheeks burn.
+楽しみにしております。	I'm looking forward to it.
+歌を歌いましょう。	Let us sing a song.
+歌がうまければいいのになあ。	I wish I were a good singer.
+歌がうまければいいのに。	If only I could sing well.
+運がいいね。	It's a godsend.
+わたしは最終バスに間に合うのがやっとだった。	I had enough to do to catch the last bus.
+ローラは病気だったのかもしれない。	Laura may have been sick.
+よくも顔をつぶしてくれたな。	You really made me lose face.
+ゆっくりはっきりと話しなさい。	Speak slowly and clearly.
+やあ、調子はどう。	Hi! What's new?
+もっとゆっくり話せませんか。	Won't you speak more slowly?
+もっとゆっくり話していただけませんか。	Could you speak more slowly?
+もう話しにならない。	We're not getting anywhere.
+もう最高においしかったですよ。	It was really good.
+もうみなさんお知り合いになられましたか。	Have you gotten yourselves acquainted?
+もうその話はやめましょう。	Let's not talk about it any more.
+メグはかわいらしい顔つきをしている。	Meg has a lovely face.
+メキシコではスペイン語を話す。	They speak Spanish in Mexico.
+メキシコではスペイン語が話されますか。	Is Spanish spoken in Mexico?
+メキシコではスペイン語が話されています。	Spanish is spoken in Mexico.
+メアリーは日本語をゆっくりと話しました。	Mary spoke Japanese slowly.
+メアリーは日本語が話せる。	Mary can speak Japanese.
+メアリーはフランス語を読むことさえできない、まして話すことはできない。	Mary can't even read French, much less speak it.
+メアリーはフランス語を読むことさえできない、ましてフランス語を話すことはできない。	Mary can't even read French, much less speak it.
+メアリーはフランス語を読むことさえできない、フランス語を話すことはなおさらできない。	Mary can't even read French, much less speak it.
+メアリーとどうして知り合いになったのですか。	How did you get to know Mary?
+まだ頭がくらくらした。	My head still felt giddy.
+またあなたと話をしにきてしまった。	I've come to talk with you again.
+マイクはお酒をやめたの？	Is Mike off the bottle?
+マーシャにその話をしたとき、いかめしい顔つきをした。	Marcia looked grim when I told her the story.
+ボブは親にそっくりね。	Bob's really chip off the old block.
+ボブはいったい病気なのだろうか。	Can Bob be sick?
+ほとんど話せない。	He can hardly speak.
+ぼくの自転車はパンクしている。	My bicycle has a flat tire.
+ボーイが運ぶ。	I had the boy carry my bag.
+ベティはベッドに横になった。	Betty laid herself on the bed.
+ベティはうまく歌うことができた。	Betty could sing better.
+ベッドに横になっていた。	He lay on the bed.
+フランス語はフランスで話されます。	French is spoken in France.
+フランス語であまり話しません。	I don't speak French very much.
+フランス語が話せさえすればなあ。	If only I could speak French.
+ぶっちゃけた話、これっていくらぐらいしたの？	Sorry to be so direct, but how much did you pay for this?
+ビルは日本語をすこし話すことができる。	Bill can speak Japanese a little.
+ビルはトイレで歌を歌うことがある。	Bill will often sing in the toilet.
+ビールを飲むのはやめている。	I'm off beer.
+はっきり話しなさい。	Speak clear.
+ばかな話はよせ。	Stop your nonsense!
+ばかなまね話はよせ。	Stop your nonsense!
+パーティーはほとんど終わるところでした。	The party was almost over.
+パーティーの開始に間に合うでしょうか。	Will we be in time for the beginning of the party?
+パーティーが楽しみだ。	I'm looking forward to the party.
+ねねね、そんないやな顔しないでよ。	Hey, come on. Don't make a face.
+なんとみごとに歌を歌うのでしょう。	How beautifully she sings!
+なんとすてきな顔をしているのだろう。	What a nice face she has!
+なんて頭がいいんだろう。	How smart!
+なんだい、話したいことって。	What do you want to talk to me about?
+なるべくゆっくり話してもらえますか。	Could you speak as slowly as possible?
+とりあえず、あたりさわりのない話をしておいたよ。	I steered clear of sensitive topics.
+トムは日本語がぺらぺらだ。	Tom is a fluent speaker of Japanese.
+トムはビルよりゆっくり話す。	Tom speaks more slowly than Bill.
+トムはスペイン語を話すし、ベティもそうだ。	Tom speaks Spanish, and Betty speaks Spanish, too.
+どのくらい病気なのですか。	How long have you been ill?
+どなたとお話しになりたいのですか。	Who do you want to speak to?
+どこの新聞をとっていますか。	What papers do you take?
+どうやってボンネットを開けるのですか。	How do I open the hood?
+どうぞもっとゆっくり話してください。	Please speak more slowly.
+どう、調子は？	What's happening?
+テレビの調子がよくない。	There's nothing good on television.
+できるかぎり話をはっきりさせよう。	We'll get this as clear as possible.
+でかい顔してるじゃないか。	You're being bossy, aren't you?
+ディナーはたいがいコーヒーで終わる。	Coffee finishes most dinners.
+ちょっと話があります。	I have something to tell you.
+ちょっと仕返ししてやった。	I got a little revenge on him.
+ちょっとお話してもよろしいですか。	May I talk with you for a moment?
+ちょっとお話したいのですけれど。	I'd like to speak to you for a moment.
+ちょっとお話ししてもいいですか。	Can I have a word with you?
+ちょっといっぱいやりながら話そう。	Let's have a talk over a couple of drinks.
+ちょうどあなたのことをお話していたところです。	We were just talking about you.
+だれと話していたのですか。	Who were you talking with?
+だるいし頭がずきずきする。	I feel listless and have a throbbing headache.
+タオルで顔をふきなさい。	Dry your face with a towel.
+たいしたことではない、心配するな。	Never mind!
+そんな話にだまされるなんて、よくよくおめでたいね。	You must be very simple to be taken in by such a story.
+そんなつまらないことを心配するな。	Don't worry about such a silly thing.
+そんなつまらないことで心配するな。	Don't worry about such a trifle.
+そんなことを心配するな。	Don't worry about such a thing.
+それを日本語でどういうのがわかりません。	I don't know how to put it in Japanese.
+それは楽しみです。	I'll look forward to it.
+それはつい最近のことです。	It happened quite recently.
+それはたいへんな話だ。	That's quite a story.
+それはあまりにもうますぎる話だ。	That's too good a story to be true.
+それで最後だ！	That's the last straw!
+それで間に合うでしょう。	That will do.
+それではまるで話がちがう。	That's quite another thing to what you promised.
+それが親ばかというものさ。	We parents sometimes become blind in loving our children too much.
+ソファーに横になってもかまいませんか。	May I lie on the sofa?
+その話はもうやめにしよう。	Let the matter drop.
+その話はもうたくさんだ。	I've gadded enough of that story.
+その話はここではタブーです。	The topic is taboo here.
+その物語はハッピーエンドだ。	The story ends happily.
+その物語はおなじみである。	The tale is familiar to us.
+その病気はたいしたことにはならなかった。	The effects of the illness were not serious.
+その調子でがんばって。	Keep it up.
+その調子だよ。	That's the way.
+その調子だ。	That's the spirit.
+そのことを話してよ。	Tell me about it.
+そのことを親にいってはいけないよ。	You mustn't tell that to your parents.
+そのことは心配ないよ。	You can bet your boots on that.
+そのことは心配するな。	Don't worry about that.
+そのことについて心配するな。	Don't worry about it.
+ソニアはおかしそうな顔をしていた。	Sonia had a very amused look on her face.
+そう心配しなくてもいいよ。	You don't have to be so nervous.
+そうそうその調子。	That a boy.
+そういう話もあったな。	I guess there was some talk of that.
+スポーツはからだの調子をよくする。	Sports keep us in good shape.
+スペイン語が話せたらよかったのに。	I wish I could have spoken Spanish.
+すでにお話しました。	I already told you.
+すごく心配しました。	I was biting my nails, worrying about you.
+ジルはかわいいだけでなく頭もよい。	Jill is smart as well as pretty.
+ジョンはスコッチを、メアリーはバーボンを飲む。	John drinks Scotch and Mary bourbon.
+ジョンとお話したいのですが。	Is John available now?
+ジョン・ワーナーさんとお話ししたいのですが。	I'd like to speak to John Warner.
+ジョージ、話がある。おっかさんがいるだろ。	George, I have something to tell you. You have a mother, don't you?
+ジュディさんとお話したいのですが。	I'd like to speak to Judy.
+ジャックは病気らしい。	It seems that Jack is sick.
+ジャックはフランス語も話すことができる。	Jack can speak French.
+ジャックはスペイン語も話すかもしれない。	Jack may speak Spanish, too.
+ジム・ロビンソンとはいつからの知り合いですか。	How long have you known Jim Robinson?
+ジェーンは歌うでしょうか。	Will Jane sing?
+さあ話たまえ。	Now tell me.
+さあ歌を歌いましょう。	Let's sing a song.
+ご病気だったそうですね。	I hear you have been sick.
+ご心配ありがとう。	Thank you for your concern.
+コンサートに間に合うでしょうか。	Will we be in time for the concert?
+これらのリンゴを運ぶためのカゴがほしい。	I want a basket in which to carry these apples.
+これは頭にくる。	This is making me really angry.
+これはマイクの自転車です。	This is Mike's bicycle.
+これはここだけの話ですよ。	This is just among ourselves.
+これはきみの自転車？	Is this your bike?
+これにて終了。	The end, so long good bye!
+これが最高。	This is much the best.
+これが最後だから。	This is the last time.
+こまはぐるぐる回転した。	The top went around and around.
+この話はあれよりずっとおもしろい。	This story is by far more interesting than that one.
+この線の終点はどこですか。	Where is the end of this line?
+この歌を歌おうじゃないか。	Let's sing this song, shall we?
+この歌を歌えますか。	Can you sing this song?
+この歌をうたいましょう。	Let's sing this song, shall we?
+この歌はラブソングです。	This song is a love song.
+このところ調子はいかがですか。	How have you been getting on?
+このデータを最終チェックしてもらえないか。	Could you give this data a final check for me?
+ここまでやったんだから最後までやってしまおう。	As long as I've come this far, I'll see it through.
+ここは病院だ。	This is a hospital.
+ここだけの話なんだけど。	This is just between you and me.
+ここだけの話だが。	This is just between you and me.
+けってドアを開けるな。	Don't kick the door open.
+くだらない話はもうたくさんだ。	We have had enough of empty words.
+ギリギリのところで間に合う。	I just made it under the wire.
+きみはひどい病気にかかるかもしれない。	You may get a serious disease.
+きっとジムがその話をでっちあげたんだ。	I am sure that Jim made up that story.
+かのじょはビールを飲むくせがついた。	She took to drinking beer.
+カナダではフランス語を話しますか。	Do they speak French in Canada?
+お話してもよいですか。	May I talk to you?
+お話したいことがあります。	Can we talk?
+お話させていただいてもよろしいでしょうか。	May I speak with you?
+お話があるのですけど。	I have something to tell you.
+お話があるのですが。	Can we have a talk?
+お知り合いになれてうれしい。	I'm glad to meet you.
+お知り合いなんですか。	Do you know each other?
+お楽しみなのですね。	You're enjoying yourself.
+おまえなんかに話すんじゃなかったよ。	I shouldn't have told you nothin'.
+おじいさんはとてもゆっくりと話す。	Grandfather speaks very slowly.
+エアコンの調子がおかしい。	The air conditioner doesn't work.
+うかぬ顔をしているね。	You look gloomy.
+いつ終わるの？	When does it end?
+いい線いってるよ。	I think you're on the right track.
+いい線いっていますよ。	It's going nicely!
+いい顔になってきたね。	Like a good wine, he improves with age.
+いいかげんな話はやめろ。	Don't give me that!
+いいえ、歌いません。	No, I'm not singing.
+アンは病気のようだ。	Ann seems to be ill.
+あんなことをするなんて頭がどうかしている。	You've got to be crazy to do something like that.
+あまり心配するとはげるよ。	Don't worry too much, or you'll go bald.
+あなたは日本語を話しますか。	Do you speak Japanese?
+あなたは頭がいい。	You are sharp.
+あなたは歌を歌えます。	You can sing a song.
+あなたは歌うつもりですか。	Are you going to sing?
+あなたは運がいい。	You're in luck.
+あなたはフランス語が話せますか。	Can you speak French?
+あなたはどの新聞をとっていますか。	What papers do you take in?
+あなたにお話するよいことがあります。	I have something good to tell you.
+あなたにお話があるのですが。	I would like to tell you something.
+あなたと話しあいたいことがあります。	There's something I need to talk with you about.
+あなたとお話しできてうれしかったです。	Nice talking with you.
+あなたとお話ししていいですか。	May I talk with you?
+あなたとお話ししたいことがあるのですが。	May I have a talk with you?
+あいつは、まったく頭にくるやつだ。	That guy really burns me up.
+あいつには頭にきた！	I'm up to here with him!
+ＡからＢまで線をひきなさい。	Draw a line from A to B.
+最近どうだ？	How have you been recently?
+心配しないで。	Don't worry.
+なんで聞くの？	Why do you ask?
+あつしは病気だったかもしれない。	Atsushi may have been sick.

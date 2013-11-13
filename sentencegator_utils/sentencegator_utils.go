@@ -12,6 +12,7 @@ import (
 	"os"
 	"regexp"
 	"strings"
+	"unicode/utf8"
 )
 
 func FastProcessingSentences(sent []string, chunks int, vocab []string, includeB bool) []string {
@@ -20,7 +21,7 @@ func FastProcessingSentences(sent []string, chunks int, vocab []string, includeB
 	//var main_channel chan string = make(chan string)
 	var quit_channel chan int = make(chan int)
 
-	fmt.Printf("Fast processing\n")
+	//fmt.Printf("Fast processing\n")
 
 	var nSentences = len(sent)
 	var chunkSize = (nSentences / chunks) + 1
@@ -87,7 +88,7 @@ func ProcessingSentences(sent []string, vocab []string, includeB bool) []string 
 
 	//fmt.Printf("Sentences length: %d\n", len(sent))
 
-	fmt.Printf(assets.O_DATA_PROCESSING)
+	//fmt.Printf(assets.O_DATA_PROCESSING)
 
 	for k, sentence := range sent {
 
@@ -118,11 +119,11 @@ func ProcessingSentences(sent []string, vocab []string, includeB bool) []string 
 		}
 
 		if k%15000 == 0 {
-			fmt.Printf(".")
+			//fmt.Printf(".")
 		}
 	}
 
-	fmt.Printf("\n")
+	//fmt.Printf("\n")
 
 	return reslt
 
@@ -163,7 +164,7 @@ func processingSentences(sent []string, vocab []string, includeB bool, res *[]st
 	quit <- 1
 }
 
-func LoadWaniKaniData(apik string, levels string) []string {
+func LoadWaniKaniVocabData(apik string, levels string) []string {
 
 	res, err := http.Get(assets.WK_API_URL + apik + assets.WK_API_REQUEST_VOCAB + levels)
 	if err != nil {
@@ -208,8 +209,45 @@ func LoadWaniKaniData(apik string, levels string) []string {
 		result[k] = word.Character
 	}
 
-	fmt.Printf(assets.O_GREETINGS, json.UserInfo.Username, json.UserInfo.Title)
-	fmt.Printf(assets.O_VOCAB_PENDING)
+	//fmt.Printf(assets.O_GREETINGS, json.UserInfo.Username, json.UserInfo.Title)
+	//fmt.Printf(assets.O_VOCAB_PENDING)
+
+	return result
+
+}
+
+func LoadWaniKaniKanjiData(apik string, levels string) string {
+
+	res, err := http.Get(assets.WK_API_URL + apik + assets.WK_API_REQUEST_KANJI + levels)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	var inpLimited = new(wanikani_datatypes.WKResponseKanji)
+	var encode_err error
+
+	jsonResp, resp_err := ioutil.ReadAll(res.Body)
+
+	if levels != "" {
+		encode_err = json.Unmarshal(jsonResp, &inpLimited)
+	} else {
+		encode_err = json.Unmarshal(jsonResp, &inpLimited)
+	}
+
+	if resp_err != nil {
+		log.Fatal(resp_err)
+	}
+	if encode_err != nil {
+		log.Fatal(encode_err)
+	}
+
+	res.Body.Close()
+
+	var result = ""
+
+	for _, kanji := range inpLimited.RequestedInfo {
+		result = result + kanji.Character
+	}
 
 	return result
 
@@ -263,4 +301,99 @@ func ContainKanji(arg string) bool {
 		log.Fatal(merr)
 	}
 	return matched
+}
+
+func ReadInputFiles(paths []string) (result string, textlen int) {
+
+	var runeres []rune
+
+	for _, file := range paths {
+		fileData, err := ReadLines(file)
+		if err != nil {
+			log.Fatal(err)
+			continue
+		}
+		for _, str := range fileData {
+			textlen = textlen + utf8.RuneCountInString(str)
+			for _, r := range str {
+				if r > 0x4e00 && r < 0x9faf {
+					runeres = append(runeres, r)
+				}
+			}
+		}
+	}
+
+	result = string(runeres)
+
+	return
+
+}
+
+func ReadInput(file []string) (result string, textlen int) {
+
+	var runeres []rune
+
+	for _, str := range file {
+		textlen = textlen + utf8.RuneCountInString(str)
+		for _, r := range str {
+			if r > 0x4e00 && r < 0x9faf {
+				runeres = append(runeres, r)
+			}
+		}
+
+	}
+
+	result = string(runeres)
+
+	return
+
+}
+
+func UniqueKanjiInString(arg string) (result string) {
+
+	var runeres []rune
+
+	for _, r := range arg {
+		if !strings.ContainsRune(string(runeres), r) {
+			runeres = append(runeres, r)
+		}
+	}
+
+	result = string(runeres)
+
+	return
+
+}
+
+func KanjiDifference(s1 string, s2 string) (result string) {
+
+	var runeres []rune
+
+	for _, r := range s1 {
+		if !strings.ContainsRune(s2, r) {
+			runeres = append(runeres, r)
+		}
+	}
+
+	result = string(runeres)
+
+	return
+
+}
+
+func KanjiPercent(s1 string, s2 string) (result float64) {
+
+	var all = float64(utf8.RuneCountInString(s2))
+	var res = 0
+
+	for _, r := range s1 {
+		if strings.ContainsRune(s2, r) {
+			res = res + strings.Count(s2, string(r))
+		}
+	}
+
+	result = float64(res) / all * 100
+
+	return
+
 }

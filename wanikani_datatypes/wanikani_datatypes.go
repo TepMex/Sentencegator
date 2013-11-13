@@ -16,6 +16,30 @@ type Item_stats struct {
 	Reading_current_streak float64 `json:"reading_current_streak"`
 }
 
+type Kanji struct {
+	Character        string  `json:"character"`
+	Meaning          string  `json:"meaning"`
+	Onyomi           string  `json:"onyomi"`
+	Kunyomi          string  `json:"kunyomi"`
+	ImportantReading string  `json:"important_reading"`
+	Level            float64 `json:"level"`
+	Stats            struct {
+		Srs                    string  `json:"srs"`
+		Unlocked_date          float64 `json:"unlocked_date"`
+		Available_date         float64 `json:"available_date"`
+		Burned                 bool    `json:"burned"`
+		Burned_date            float64 `json:"burned_date"`
+		Meaning_correct        float64 `json:"meaning_correct"`
+		Meaning_incorrect      float64 `json:"meaning_incorrect"`
+		Meaning_max_streak     float64 `json:"meaning_max_streak"`
+		Meaning_current_streak float64 `json:"meaning_current_streak"`
+		Reading_correct        float64 `json:"reading_correct"`
+		Reading_incorrect      float64 `json:"reading_incorrect"`
+		Reading_max_streak     float64 `json:"reading_max_streak"`
+		Reading_current_streak float64 `json:"reading_current_streak"`
+	} `json:"stats"`
+}
+
 type Vocab_item struct {
 	Character string  `json:"character"`
 	Kana      string  `json:"kana"`
@@ -63,4 +87,9 @@ type WKResponse struct {
 type WKResponseLimited struct {
 	UserInfo      User_info    `json:"user_information"`
 	RequestedInfo []Vocab_item `json:"requested_information"`
+}
+
+type WKResponseKanji struct {
+	UserInfo      User_info `json:"user_information"`
+	RequestedInfo []Kanji   `json:"requested_information"`
 }
