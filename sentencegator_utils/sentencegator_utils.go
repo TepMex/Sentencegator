@@ -153,10 +153,10 @@ func processingSentences(sent []string, vocab []string, includeB bool, res *[]st
 		if isGoodItem && containVocab {
 			*res = append(*res, sentence)
 			//fmt.Printf("Sent.\n")
-			//if includeB {
-			//	ch <- sent[k+1]
-			//	ch <- "\n"
-			//}
+			if includeB {
+				*res = append(*res, sent[k+1])
+				*res = append(*res, "\n")
+			}
 		}
 	}
 

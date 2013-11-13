@@ -1,5 +1,9 @@
 package assets
 
+//Version constants
+const SENTENCEGATOR_VERSION = "v1.2a"
+const SENTENCEGATOR_BUILD = "102"
+
 //Service constants
 const INCORRECT_API_KEY = "Incorrect"
 
@@ -29,3 +33,4 @@ const O_DONE = "Done. See your sentence list in file %s.\n"
 const O_DATA_PROCESSING = "Data processing(it may take few minutes)"
 const O_VOCAB_PENDING = "Loading your vocabular.\n"
 const O_GREETINGS = "######################\nHello, %s of sect %s! ^_^\n######################\n"
+const O_WEB_RUNNING = "Sentencegator is running. Open your browser and go to http://localhost:%s/\n"
